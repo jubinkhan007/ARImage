@@ -31,6 +31,7 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.0'
     implementation 'com.google.android.material:material:1.3.0-alpha02'
     testImplementation 'junit:junit:4.12'
@@ -45,3 +46,5 @@ sceneform.asset('sampledata/Bed_01.obj','default','src\\main\\assets\\Bed_01.sfa
 sceneform.asset('sampledata/Armoire.obj','default','src\\main\\assets\\Armoire.sfa','src\\main\\assets\\Armoire')
 sceneform.asset('sampledata/Table_01.obj','default','src\\main\\assets\\Table_01.sfa','src\\main\\assets\\Table_01')
 sceneform.asset('sampledata/Showcase.obj','default','src\\main\\assets\\Showcase.sfa','src\\main\\assets\\Showcase')
+
+apply plugin: 'com.google.gms.google-services'

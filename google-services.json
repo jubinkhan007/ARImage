@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "560851382828",
+    "firebase_url": "https://ar-furniture-4ad47.firebaseio.com",
+    "project_id": "ar-furniture-4ad47",
+    "storage_bucket": "ar-furniture-4ad47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560851382828:android:066b180522619996cf9789",
+        "android_client_info": {
+          "package_name": "com.example.myar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560851382828-117c9vubkm4ks9ua67o08ddaptfh7413.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4ZelPQFV6nvDfgb8SfWQ0_lDLP-JsaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560851382828-117c9vubkm4ks9ua67o08ddaptfh7413.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
